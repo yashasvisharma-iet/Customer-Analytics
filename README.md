@@ -32,9 +32,9 @@ Built an end-to-end analytics pipeline using Python (Pandas) and Tableau to tran
 ---
 
 ## 📈 Dashboard
-👉 View Dashboard: [YOUR TABLEAU LINK]
+👉 View Dashboard:
 
-![Dashboard Preview](dashboard/dashboard_screenshot.png)
+![Dashboard Preview](ss.png)
 
 ---
 
