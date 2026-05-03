@@ -65,7 +65,7 @@ The project transforms raw operational data into actionable insights using Pytho
 
 ## 📊 Dashboard
 
-👉 **Live Dashboard:** [Add Tableau Link Here]
+👉 **Live Dashboard:** [View on Tableau Cloud](https://prod-in-a.online.tableau.com/#/site/yashasvii045-abd7412d29/workbooks/881700/views)
 
 **Key Views:**
 - KPI Overview (SLA, Resolution Time, CSAT)
