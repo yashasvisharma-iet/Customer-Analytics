@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 cleaned_support_tickets.csv
 .ipynb_checkpoints/
+node_modules/
