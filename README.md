@@ -1,36 +1,45 @@
-# customer-analytics
+# Customer Support Analytics & SLA Optimization
 
-This repository provides a small data-cleaning script and an entrypoint `app.py`.
+## 📌 Overview
+Analyzed 1000+ customer support tickets to identify key drivers of SLA breaches and customer satisfaction.
 
-If you encounter the "externally-managed-environment" error when running `pip install`, create and use a virtual environment.
+Built an end-to-end analytics pipeline using Python (Pandas) and Tableau to transform raw data into actionable business insights.
 
-Quick start (Debian/Ubuntu):
+---
 
-1. Ensure Python 3.12 and venv support are installed:
+## ⚙️ Tech Stack
+- Python (Pandas)
+- Tableau Cloud
+- SQL (for KPI logic)
+- Jupyter Notebook
+
+---
+
+## 📊 Key KPIs
+- SLA Breach Rate: 45.33%
+- Avg Resolution Time: 45.79 hrs
+- Avg CSAT Score: 3.16
+
+---
+
+## 🔍 Key Insights
+
+- Delayed first responses increase SLA breach rate from **42% → 60%**
+- Longer resolution times reduce CSAT (**correlation: -0.26**)
+- Chat and Email channels show higher SLA breaches
+- Slow tickets (>24 hrs) have significantly lower CSAT (~2.84)
+
+---
+
+## 📈 Dashboard
+👉 View Dashboard: [YOUR TABLEAU LINK]
+
+![Dashboard Preview](dashboard/dashboard_screenshot.png)
+
+---
+
+## 🚀 How to Run
 
 ```bash
-sudo apt update
-sudo apt install python3.12 python3.12-venv python3.12-distutils -y
-```
-
-2. Create and activate a virtual environment inside the project:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-3. Upgrade pip inside the venv and install dependencies:
-
-```bash
-python -m pip install --upgrade pip
 pip install -r requirements.txt
-```
-
-4. Run the app:
-
-```bash
-python app.py
-```
-
-If you prefer pipx for installing `jupyter` globally, install pipx first and use `pipx install jupyter`.
+python src/app.py
